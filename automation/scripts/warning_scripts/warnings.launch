@@ -1,0 +1,12 @@
+<!-- warnings.launch -->
+
+<launch>
+
+  <!-- Start warning_info_node -->
+  <node pkg="automation" type="warning_info.py" name="warning_info_node" output="screen" />
+
+  <!-- Start warnings_node -->
+  <node pkg="automation" type="warning_node.py" name="warnings_node" output="screen" />
+
+</launch>
+

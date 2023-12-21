@@ -1,0 +1,10 @@
+<launch>
+    <!-- Launch height_control_node -->
+    <node name="height_control" pkg="automation" type="arm_height_control.py" output="screen" />
+
+    <!-- Launch arm_ultrasonic_node -->
+    <node name="arm_ultrasonic_node" pkg="ultrasonic_floater" type="arm_ultrasonic_node.py" output="screen" />
+
+</launch>
+
+    

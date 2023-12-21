@@ -1,0 +1,16 @@
+<launch>
+    <!-- Launch x_positive_node -->
+    <node name="x_positive_node" pkg="ultrasonic_floater" type="x_positive_node.py" output="screen" />
+
+    <!-- Launch x_negative_node -->
+    <node name="x_negative_node" pkg="ultrasonic_floater" type="x_negative_node.py" output="screen" />
+
+    <!-- Launch y_down_node -->
+    <node name="y_down_node" pkg="ultrasonic_floater" type="y_down_node.py" output="screen" />
+     
+    <!-- Launch trialnode -->
+    <node name="trialnode" pkg="ultrasonic_floater" type="trialnode.py" output="screen" />
+
+</launch>
+
+    
